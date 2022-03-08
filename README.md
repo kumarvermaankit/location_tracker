@@ -17,5 +17,5 @@
 ## Description
    Tracking Start as soon as you open website
    
-   There's a dropdown in rightmost corner from where you can change time interval after which location updates.
+   There's a dropdown in rightmost corner from where you can change time interval after which data gets mapped.
 

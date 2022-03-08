@@ -18,7 +18,7 @@ function App() {
   useEffect(async () => {
 
     //Fetching data from backend
-    const excelData = await axios.get("http//localhost:5000/api")
+    const excelData = await axios.get("http://localhost:5000/api")
 
 
 
@@ -38,9 +38,8 @@ function App() {
       const response = await fetch(
         'https://docs.mapbox.com/mapbox-gl-js/assets/hike.geojson'
       );
+
       const data = await response.json();
-      // save full coordinate list for later
-      const coordinates = data.features[0].geometry.coordinates;
 
       // start by showing just the first coordinate
       data.features[0].geometry.coordinates = [[excelData.data[8][3], excelData.data[8][2]]];
