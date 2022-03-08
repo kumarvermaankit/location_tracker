@@ -3,19 +3,19 @@
 ## Running Backend Server 
    ```cd api```
 
-   npm install
+   ```npm install```
    
-   node server.js
+   ```node server.js```
 
 ## Running Client Server
   ```cd client``` 
 
-  npm install
+  ```npm install```
   
-  npm start
+  ```npm start```
 
 ## Description
    Tracking Start as soon as you open website
    
-   There's a dropdown in rightmost corner from where you can change time interval
+   There's a dropdown in rightmost corner from where you can change time interval after which location updates.
 
