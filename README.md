@@ -19,6 +19,5 @@
    
    There's a dropdown in rightmost corner from where you can change time interval after which data gets mapped.
 
-## Link
-   [a link] (https://location-gps-tracker.netlify.app/)
+## Link (https://location-gps-tracker.netlify.app/)
 
