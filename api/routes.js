@@ -3,7 +3,6 @@ const readXlsxFile = require('read-excel-file/node')
 
 router.get("/", (req, res, next) => {
 
-    console.log("jjj")
 
     // Reading excel file
     readXlsxFile("./GPS-DATA.xlsx").then((rows) => {
